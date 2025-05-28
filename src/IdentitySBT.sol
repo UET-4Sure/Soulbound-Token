@@ -38,6 +38,8 @@ contract IdentitySBT is ERC721URIStorage, Ownable {
         return hasMinted[user];
     }
 
+
+    // block transfer
     function _update(address to, uint256 tokenId, address auth)
         internal
         override
